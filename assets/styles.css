@@ -328,6 +328,14 @@ aside ul li .show {
 		position: relative;
 		margin-bottom: 10px;
 	}
+
+	aside ul li {
+		list-style: none;
+		text-decoration: none;
+		height: 50px;
+		font-size: 18px;
+	}
+
 	aside #info{
 		border: 1px solid gray;
 		padding: 0 15px;
@@ -338,7 +346,6 @@ aside ul li .show {
 		box-shadow: 1px 2px 4px 2px gray;
 		font-family: 'Anton', sans-serif;
 	}
-
 	#profile {
 		width: 80px;
 		height: 80px;
