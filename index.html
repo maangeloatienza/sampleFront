@@ -3,55 +3,92 @@
 <head>
 	<title>Sample Page</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 </head>
 <body>
 
 <header>
 	
-	<!--Profile Picture-->
-	<img src="https://www.google.com.ph/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwickfPZzN7YAhXLf7wKHVoEBt0QjRx6BAgAEAY&url=https%3A%2F%2Fwww.pinterest.com%2Fdigitalcartoons%2Fcelebrity-cartoon-cartoonized%2F&psig=AOvVaw257WdIb5MKKRGYLbtOWh40&ust=1516264793699150" alt="Profile Picture">
-	<!--Cover Photo-->
-	<img src="https://www.google.com.ph/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiSz5KDzd7YAhULUbwKHV5nALgQjRx6BAgAEAY&url=https%3A%2F%2Fwww.sleekcover.com%2Fmisc%2Fcomputer-geek-facebook-cover&psig=AOvVaw0579N-IFlDgz0d5njyWBHS&ust=1516264843722356" alt="COver Photo">
-
-	<nav id="nav-bar">
-		<ul>
-			<li><a href="">Home</a>&verbar;</li>
-			<li><a href="">Profile</a>&verbar;</li>
-			<li><a href="">About</a>&verbar;</li>
-			<li><a href="">Inbox</a>&verbar;</li>
-			<li><a href="">Friends</a>&verbar;</li>
-			<li><a href="">Messages</a>&verbar;</li>
+	<nav>
+		<ul id="main-nav">
+			<li><a href="">HOME</a></li>
+			<li><a href="">PROFILE</a></li>
+			<li><a href="">ABOUT</a></li>
+			<li id="msg"><a href="">MESSAGE</a>
+				<ul id="sub-nav">
+					<li><a href="">New Message</a></li>
+					<li><a href="">Inbox</a></li>
+				</ul>
+			</li>
+			<li><a href="">FRIENDS</a></li>
 		</ul>
 	</nav>
-
+<div id="cover">
+		<!--Profile Picture-->
+		<img src="https://i.pinimg.com/736x/63/a5/e8/63a5e8ee8cdcfab2f952bcd46a73e5c4--mr-bean-profile-pictures.jpg" alt="Profile Picture" id="profile">
+		<h1 id="name">Mark Angelo Atienza</h1>
+</div>
 </header>
 
-<!--Left side section-->
-<aside>
-	<!--Left section content-->
-	<ul>
-		<li><a href="#">	FACEBOOK </a></li>
-		<li><a href="#"> TWITTER </a></li>
-		<li><a href="#"> EMAIL </a></li>
-		<li><a href="#"> CONTACT #</a></li>
-	</ul>
 
-</aside>
+	<section>
+		<!--First article-->
+		<article>
+			<div id="video">
+					
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5bm5tT0bN7c" frameborder="0" allowfullscreen></iframe>
 
-<section>
-	<!--First article-->
-	<article>
-		<div></div>
-	</article>
+			</div>
+		</article>
 
 
-	<!--Second Article-->
-	<article>
-		<div id="par">
-			
+		<!--Second Article-->
+		<article>
+			<div id="par">
+				<h2>How to choose a programming language?</h2>
+				<p>
+					By different estimations, the number of production-ready programming languages in the world varies from 400 to 600. And at least two orders of magnitude more experimental projects. How to make a good choice, having so many options? How to choose a language, which not only will turn out to be commercially in demand but also will bring joy in everyday practice? How will this choice show itself in the long-term?
+
+					The criteria of choosing the first and the N-th language differ radically. This article describes the process of choosing the first language. What is meant by "the first" language? The one in which you can fulfill commercial orders! That means, if you have read something about a dozen of languages, but can't make it to the Junior in every of them, -<a href="https://mkdev.me/en/posts/how-to-choose-a-programming-language"> this article can be useful for you. </a>
+				</p>
+				
+			</div>
+		</article>
+	</section>
+	<!--right side section-->
+
+	<aside>
+		<div id="info">	
+			<!--Left section content-->
+			<h2>CONTACT INFORMATION</h2>
+			<ul>
+				<li>FACEBOOK 
+					<span class="show">
+						<a href="www.facebook.com">www.facebook.com</a>
+					</span>
+				</li>
+				
+				<li>TWITTER 
+					<span class="show">
+						<a href="www.twitter.com">www.twitter.com</a>
+					</span>
+				</li>
+				
+				<li>EMAIL 
+					<span class="show">
+						<a href="www.gmail.com">maangeloatienza@gmail.com</a>
+					</span>
+				</li>
+				
+				<li>CONTACT # <span class="show">+639186498851</span></li>
+			</ul>
 		</div>
-	</article>
-</section>
+	</aside>
+
+
 
 </body>
 </html>

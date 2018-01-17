@@ -1,0 +1,369 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #e9ebee;
+}
+
+header {
+	width: 100%;
+	height: 230px;	
+	background: url("https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.0-9/26730954_1257406147724668_2855581817789702702_n.jpg?oh=d209454e2aeef9b68966751c1d5761ed&oe=5ADBBF9A")no-repeat center center ;
+	background-size: cover;
+	position: relative;
+	margin: 0 0 20px 0;
+}
+
+/*Header Styles*/
+
+
+ul li a {
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+nav #main-nav {
+	float: right;
+
+}
+
+nav #main-nav li{
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: auto;
+}
+
+nav ul li a{
+	padding: 7px 10px;
+	display: block;
+	font-weight: bold;
+	color: lightgray;
+	width: 80px;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+	margin:0 5px;
+	font-family: 'Acme', sans-serif;
+	background: black;
+}
+
+nav ul li a:hover{
+	border: 2px solid white;
+	color: white;
+	box-shadow: 2px 3px 1px 0px lightgray;
+}
+
+nav #sub-nav {
+	position: absolute;
+	left: -999em;
+
+}
+
+#msg:hover ul{
+	transition: 1s;
+	left: auto;
+	margin: auto;
+	text-align: left;
+	padding: 5px 0;
+}
+
+
+#profile {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	border: 1px solid white;
+	border-radius: 2px;
+	box-shadow: 1px 3px 3px 2px lightgray;
+
+}
+
+#name {
+	position: absolute;
+	top: 160px;
+	left: 250px;
+	color: white;
+	text-shadow: 5px 5px 3px gray;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+
+
+/*Content Styles*/
+
+	/*ARTICLE SECTION*/
+
+
+section {
+	width: 68%;
+	float: right;
+	margin: 0 10px 60px 10px; 
+
+}
+article {
+
+	padding: 15px;
+	border: 1px solid gray;
+	margin-bottom:20px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 1px 2px 4px 2px gray;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#video {
+	height: 400px;
+}
+
+	/*INFORMATION SECTION*/
+	
+aside {
+	margin: 0 10px;
+	width: 29%;
+	float: right;
+	position: fixed;
+
+}
+aside #info{
+	border: 1px solid gray;
+	padding: 0 15px;
+	border-radius: 5px;
+	background: white;
+	text-align: left;
+	height: 330px;
+	box-shadow: 1px 2px 4px 2px gray;
+	font-family: 'Anton', sans-serif;
+}
+aside h2 {
+	color: gray;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+aside ul li {
+	list-style: none;
+	text-decoration: none;
+	height: 50px;
+	font-size: 22px;
+}
+
+aside ul li:hover .show{
+	display: inline-block;
+
+}
+
+aside ul li .show {
+	display: none;
+}
+
+/*Tablet*/
+
+@media only screen and (max-width: 732px){
+	header {
+		width: 100%;
+		height: 205px;	
+		background: url("https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.0-9/26730954_1257406147724668_2855581817789702702_n.jpg?oh=d209454e2aeef9b68966751c1d5761ed&oe=5ADBBF9A")center center ;
+		background-size: cover;
+		position: relative;
+		margin: 0 0 10px 0;
+	}
+	nav #main-nav {
+		float: left;
+		margin: 20px auto;
+
+	}
+
+	nav ul li a{
+		padding: 7px 10px;
+		display: block;
+		font-weight: bold;
+		color: lightgray;
+		width: 60px;
+		border: 2px solid lightgray;
+		border-radius: 5px;
+		margin:0 5px;
+		font-family: 'Acme', sans-serif;
+		font-size: 14px;
+		background: black;
+	}
+
+	section {
+		width: 100%;
+		margin: auto; 
+
+	}
+	article {
+
+		padding: 15px;
+		border: 1px solid gray;
+		margin-bottom:10px;
+		background: white;
+		border-radius: 5px;
+		box-shadow: 1px 2px 4px 2px gray;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 23px;
+	}
+
+	aside {
+		width: 100%;
+		margin: auto;
+		bottom: 0;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	aside #info{
+		border: 1px solid gray;
+		padding: 0 15px;
+		border-radius: 5px;
+		background: white;
+		text-align: left;
+		height: 330px;
+		box-shadow: 1px 2px 4px 2px gray;
+		font-family: 'Anton', sans-serif;
+	}
+
+	#profile {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		top: 90px;
+		left: 40px;
+		border: 1px solid white;
+		border-radius: 2px;
+		box-shadow: 1px 3px 3px 2px lightgray;
+
+	}
+
+	#name {
+		position: absolute;
+		top: 150px;
+		left: 160px;
+		color: white;
+		text-shadow: 5px 5px 3px gray;
+		font-family: 'Sedgwick Ave Display', cursive;
+		font-size: 24px;
+	}
+
+	#video {
+		height: 600px;
+	}
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 528px){
+	header {
+		background: black;
+		margin: 0;
+		padding: 0;
+	}
+	#cover {
+		top: 200px;
+		position: relative;
+		width: 100%;
+		height: 240px;	
+		background: url("https://scontent.fmnl14-1.fna.fbcdn.net/v/t1.0-9/26730954_1257406147724668_2855581817789702702_n.jpg?oh=d209454e2aeef9b68966751c1d5761ed&oe=5ADBBF9A")no-repeat center center;
+		background-size: cover;
+		bottom: 0;
+		margin: 0 0 220px 0;
+	}
+
+	nav #main-nav li a {
+		height: 25px;
+		border: 1px solid lightgray;
+		border-radius: 0;
+ 	}
+
+	nav #main-nav,  nav #main-nav li a {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	nav #main-nav li {
+		position: relative;
+		float: none;
+		width: 100%;
+		background: black;
+		display: inline-block;
+	}
+
+
+	#msg:hover ul{
+		transition: 1s;
+		position: relative;
+		left: auto;
+		float: right;
+		text-align: center;
+		padding: 1px 0;
+		width: 100%;
+	}
+
+	section {
+		width: 100%;
+		margin: auto;
+		position: relative;
+		top: 240px;
+
+	}
+	article {
+
+		padding: 15px;
+		border: 1px solid gray;
+		margin-bottom:10px;
+		background: white;
+		border-radius: 5px;
+		box-shadow: 1px 2px 4px 2px gray;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 16px;
+	}
+
+	aside {
+		width: 100%;
+		margin: auto;
+		bottom: -240px;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	aside #info{
+		border: 1px solid gray;
+		padding: 0 15px;
+		border-radius: 5px;
+		background: white;
+		text-align: left;
+		height: 330px;
+		box-shadow: 1px 2px 4px 2px gray;
+		font-family: 'Anton', sans-serif;
+	}
+
+	#profile {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		top: 145px;
+		left: 25px;
+		border: 1px solid white;
+		border-radius: 2px;
+		box-shadow: 1px 3px 3px 2px lightgray;
+
+	}
+
+	#name {
+		position: absolute;
+		top: 185px;
+		left: 125px;
+		color: white;
+		text-shadow: 5px 5px 3px gray;
+		font-family: 'Sedgwick Ave Display', cursive;
+		font-size: 24px;
+	}
+
+	#video {
+		height: 400px;
+	}
+}
+
+
